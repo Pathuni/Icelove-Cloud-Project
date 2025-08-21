@@ -1,0 +1,466 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36eea1",
+        "name": "Vanilla Ice Creams",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "popular",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea2",
+        "name": "Vanilla Ice Cones",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img2.png",
+        "category": "popular",
+        "price": 500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea3",
+        "name": "Strawberry Ice Creams",
+        "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img3.png",
+        "category": "popular",
+        "price": 300.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea4",
+        "name": "Mint Ice Creams",
+        "recipe": "Peppermint Extract, Cream, whole milk, sugar, and vanilla.",
+        "image": "/images/recipes/img4.png",
+        "category": "popular",
+        "price": 250.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a5",
+        "name": "Chocolate milkshakes",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "popular",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea6",
+        "name": "Chocolate Ice bars",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img6.png",
+        "category": "popular",
+        "price": 600.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea7",
+        "name": "Mixberry Ice Creams",
+        "recipe": "cream,berry source, milk, sugar",
+        "image": "/images/recipes/img7.png",
+        "category": "popular",
+        "price": 800.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea8",
+        "name": "Choco cookies rolls",
+        "recipe": "cream,chocolate cookies, milk, sugar",
+        "image": "/images/recipes/img8.png",
+        "category": "popular",
+        "price": 600.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea9",
+        "name": "Vanilla Ice rolls",
+        "recipe": "cream,banana, milk, sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "popular",
+        "price": 500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb1",
+        "name": "Vanilla Ice cream",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cups",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb2",
+        "name": "Chocolate Ice cream",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cups",
+        "price": 300.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb3",
+        "name": "Strawberry Ice cream",
+        "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img3.png",
+        "category": "cups",
+        "price": 300
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb4",
+        "name": "Mint Ice cream",
+        "recipe": "Peppermint Extract, Cream, whole milk, sugar, and vanilla.",
+        "image": "/images/recipes/img4.png",
+        "category": "cups",
+        "price": 250.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7b5",
+        "name": "Cookies mix Ice cream",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cups",
+        "price": 300.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb6",
+        "name": "Mix Ice cream",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cups",
+        "price": 250.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eb7",
+        "name": "Mixberry Ice cream",
+        "recipe": "cream,berry source, milk, sugar",
+        "image": "/images/recipes/img7.png",
+        "category": "cups",
+        "price": 350.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb8",
+        "name": "Banana Ice cream",
+        "recipe": "cream,banana, milk, sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cups",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "name": "Vanilla Ice roll",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 400.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec1",
+        "name": "Chocolate Ice roll",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec2",
+        "name": "Strawberry Ice roll",
+        "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec3",
+        "name": "Mint Ice roll",
+        "recipe": "Peppermint Extract, Cream, whole milk, sugar, and vanilla.",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 600.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7c4",
+        "name": "Cookies Mix Ice roll",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 700.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec5",
+        "name": "Mix Ice roll",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 600.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec6",
+        "name": "Mix Berry Ice roll",
+        "recipe": "cream,berry source, milk, sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 800.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec7",
+        "name": "Choco cookies roll",
+        "recipe": "cream,chocolate cookies, milk, sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 600.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec8",
+        "name": "Banana Ice roll",
+        "recipe": "cream,banana, milk, sugar",
+        "image": "/images/recipes/img9.png",
+        "category": "rolls",
+        "price": 500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec9",
+        "name": "Vanilla milkshake",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 100.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed1",
+        "name": "Chocolate milkshake",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed2",
+        "name": "Strawberry milkshake",
+        "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed3",
+        "name": "Mint milkshake",
+        "recipe": "Peppermint Extract, Cream, whole milk, sugar, and vanilla.",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7d4",
+        "name": "Mango mix milkshake",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed5",
+        "name": "Mix milkshake",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed6",
+        "name": "Mix Berry milkshake",
+        "recipe": "cream,berry source, milk, sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 350.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed7",
+        "name": "Pineapple milkshake",
+        "recipe": "cream,chocolate cookies, milk, sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 200.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed8",
+        "name": "Banana milkshake",
+        "recipe": "cream,banana, milk, sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 100.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed9",
+        "name": "Watermelon milkshake",
+        "recipe": "cream,banana, milk, sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 100.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee1",
+        "name": "Vanilla choco milkshake",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img5.png",
+        "category": "milkshakes",
+        "price": 250.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee2",
+        "name": "Vanilla two bar",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img6.png",
+        "category": "bars",
+        "price": 80.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee3",
+        "name": "Chocolate two bar",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img8.png",
+        "category": "bars",
+        "price": 110.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee4",
+        "name": "Strawberry two bar",
+        "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img6.png",
+        "category": "bars",
+        "price": 100.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee5",
+        "name": "Vanilla Ice bar",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img8.png",
+        "category": "bars",
+        "price": 50.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee6",
+        "name": "Chocolate Ice bar",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img6.png",
+        "category": "bars",
+        "price": 100.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee7",
+        "name": "Strawberry Ice bar",
+        "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img8.png",
+        "category": "bars",
+        "price": 50.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eee8",
+        "name": "Mint Ice bar",
+        "recipe": "Peppermint Extract, Cream, whole milk, sugar, and vanilla.",
+        "image": "/images/recipes/img6.png",
+        "category": "bars",
+        "price": 60.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7e9",
+        "name": "Cookies mix Ice bar",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img8.png",
+        "category": "bars",
+        "price": 70.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef1",
+        "name": "Mix Ice bar",
+        "recipe": "cream, milk, sugar",
+        "image": "/images/recipes/img6.png",
+        "category": "bars",
+        "price": 100.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef2",
+        "name": "Mixberry Ice bar",
+        "recipe": "cream,berry source, milk, sugar",
+        "image": "/images/recipes/img8.png",
+        "category": "bars",
+        "price": 150.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef3",
+        "name": "Choco cookies bar",
+        "recipe": "cream,chocolate cookies, milk, sugar",
+        "image": "/images/recipes/img6.png",
+        "category": "bars",
+        "price": 75.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef4",
+        "name": "Banana Ice bar",
+        "recipe": "cream,banana, milk, sugar",
+        "image": "/images/recipes/img8.png",
+        "category": "bars",
+        "price": 50.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef5",
+        "name": "Vanilla Choco bar",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img6.png",
+        "category": "bars",
+        "price": 100.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef6",
+        "name": "Vanilla Choco cone",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cones",
+        "price": 300.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef7",
+        "name": "Mixberry Ice cone",
+        "recipe": "cream,berry source, milk, sugar",
+        "image": "/images/recipes/img4.png",
+        "category": "cones",
+        "price": 850.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef8",
+        "name": "Choco cookies cones",
+        "recipe": "cream,chocolate cookies, milk, sugar",
+        "image": "/images/recipes/img2.png",
+        "category": "cones",
+        "price": 750.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eef9",
+        "name": "Banana Ice cones",
+        "recipe": "cream,banana, milk, sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cones",
+        "price": 500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeg1",
+        "name": "Vanilla Ice cones",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img2.png",
+        "category": "cones",
+        "price": 500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeg2",
+        "name": "Vanilla mix cones",
+        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
+        "image": "/images/recipes/img1.png",
+        "category": "cones",
+        "price": 600.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeg3",
+        "name": "Chocolate Ice cone",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img2.png",
+        "category": "cones",
+        "price": 300.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeg4",
+        "name": "Strawberry Ice cone",
+        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
+        "image": "/images/recipes/img3.png",
+        "category": "cones",
+        "price": 250.00
+    }
+]
