@@ -19,22 +19,26 @@ pipeline {
             }
         }
 
-        stage('Login to Docker Hub') {
-            steps {
-                 
-                withCredentials([string(credentialsId: 'test-dockerhubpassword', variable: 'dockerhub-password')]) {
-    bat "docker login -u nipunikumudika -p ${PW}"
+       stage('Login to Docker Hub') {
+    steps {
+        withCredentials([string(credentialsId: 'test-dockerhubpassword', variable: 'DOCKERHUB_PASSWORD')]) {
+            bat """
+            echo %DOCKERHUB_PASSWORD% | docker login -u pathuni --password-stdin
+            """
+        }
+    }
 }
-            }
-        }
 
-        stage('Deploy with Docker Compose') {
-            steps {
-                script {
-                    bat 'docker-compose up -d'
-                }
-            }
+
+       stage('Push Docker Images') {
+    steps {
+        script {
+            bat "docker push pathuni/icelove-frontend:%BUILD_NUMBER%"
+            bat "docker push pathuni/icelove-backend:%BUILD_NUMBER%"
         }
+    }
+}
+
     }
 
     post {
