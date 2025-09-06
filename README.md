@@ -9,10 +9,10 @@ This project consists of a **React + Vite frontend** and a **Go backend**. It ca
 ```
 Icelove-Cloud-Project/
 │
-├─ icelove-client/       # React + Vite frontend
-├─ icelove-server/       # Python.js backend
-├─ docker-compose.yaml   # Docker Compose file
-└─ Jenkinsfile           # Jenkins pipeline file
+├─ icelove-client/     
+├─ icelove-server/       
+├─ docker-compose.yaml   
+└─ Jenkinsfile           
 ```
 
 ---
