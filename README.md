@@ -1,6 +1,6 @@
 # Icelove Cloud Project
 
-This project consists of a **React + Vite frontend** and a **Node.js backend**. It can be run locally or deployed using Docker, Docker Compose, Jenkins, AWS, and Kubernetes.
+This project consists of a **React + Vite frontend** and a **Go backend**. It can be run locally or deployed using Docker, Docker Compose, Jenkins, AWS, and Kubernetes.
 
 ---
 
