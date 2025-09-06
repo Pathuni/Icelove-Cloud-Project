@@ -10,7 +10,7 @@ import useAuth from "../hooks/useAuth";
 const Navbar = () => {
   const [isSticky, setSticky] = useState(false);
   const { user, loading } = useAuth();
-  const [cart, refetch] = useCart();
+  // const [cart, refetch] = useCart();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -157,7 +157,7 @@ const Navbar = () => {
                   />
                 </svg>
                 <span className="badge badge-sm indicator-item bg-red text-white">
-                  {cart.length || 0}
+                  {/* {cart.length || 0} */}
                 </span>
               </div>
             </label>

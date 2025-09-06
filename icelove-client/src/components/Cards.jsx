@@ -10,7 +10,7 @@ const Cards = ({ item }) => {
   const { name, image, price, recipe, _id } = item;
 
   const { user } = useContext(AuthContext);
-  const [cart, refetch] = useCart();
+  // const [cart, refetch] = useCart();
   const navigate = useNavigate();
   const location = useLocation();
   const [isHeartFilled, setIsHeartFilled] = useState(false);
@@ -30,7 +30,7 @@ const Cards = ({ item }) => {
         .then((response) => {
           console.log(response);
           if (response) {
-            refetch(); // refetch cart
+            // refetch(); // refetch cart
             Swal.fire({
               position: 'center',
               icon: 'success',

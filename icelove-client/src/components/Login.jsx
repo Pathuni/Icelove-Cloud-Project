@@ -37,12 +37,12 @@ const Login = () => {
           email: data.email,
         };
         // Send user information to the backend
-        axiosPublic
+        axios
           .post("/users", userInfor)
           .then((response) => {
-            // console.log(response);
+            console.log("response"+response);
             alert("Signin successful!");
-            navigate(from, { replace: true });
+            navigate(dashboard, { replace: true });
           });
         // console.log(user);
         // ...

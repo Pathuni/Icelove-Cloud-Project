@@ -6,7 +6,7 @@ const useCart = () => {
     const { user } = useContext(AuthContext);
     // console.log(user.email)
     const token = localStorage.getItem('access-token')
-
+    console.log("Token from localStorage:", token); // Debugging line to check the token value
     const { refetch, data: cart = [] } = useQuery({
         queryKey: ['carts', user?.email],
         queryFn: async () => {

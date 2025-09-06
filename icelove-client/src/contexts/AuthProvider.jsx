@@ -40,30 +40,32 @@ const AuthProvider = ({children}) => {
           })
     }
 
-    useEffect( () =>{
-        const unsubscribe = onAuthStateChanged(auth, currentUser =>{
-            // console.log(currentUser);
-            setUser(currentUser);
-            if(currentUser){
-                const userInfo ={email: currentUser.email}
-                axios.post('http://localhost:6001/jwt', userInfo)
-                  .then( (response) => {
-                    // console.log(response.data.token);
-                    if(response.data.token){
-                        localStorage.setItem("access-token", response.data.token)
-                    }
-                  })
-            } else{
-               localStorage.removeItem("access-token")
-            }
-           
-            setLoading(false);
-        });
+    useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+        setUser(currentUser);
 
-        return () =>{
-            return unsubscribe();
+        if (currentUser) {
+            const userInfo = { email: currentUser.email };
+
+            try {
+                const response = await axios.post('http://localhost:6001/jwt', userInfo);
+                if (response.data.token) {
+                    localStorage.setItem("access-token", response.data.token);
+                }
+            } catch (error) {
+                console.error("JWT request failed:", error);
+            }
+        } else {
+            localStorage.removeItem("access-token");
         }
-    }, [])
+        const token2 = localStorage.getItem('access-token');
+        console.log("Token after auth state change:", token2); // Debugging line to check the token value
+        setLoading(false); // Now runs after token is set or removed
+    });
+
+    return () => unsubscribe();
+}, []);
+
 
     const authInfo = {
         user, 

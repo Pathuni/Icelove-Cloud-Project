@@ -1,49 +1,22 @@
 pipeline {
-    agent any 
+    agent any
 
-    stages { 
-        stage('SCM Checkout') {
+    stages {
+        stage('Deploy To Kubernetes') {
             steps {
-                retry(10) {
-                    git branch: 'main', url: 'https://github.com/Pathuni/Icelove-Cloud-Project'
+                withKubeCredentials(kubectlCredentials: [[caCertificate: '', clusterName: 'EKS-1', contextName: '', credentialsId: 'k8-token', namespace: 'webapps', serverUrl: 'https://43D2789BD7D15D97865705BBC22AB1D2.gr7.ap-south-1.eks.amazonaws.com']]) {
+                    sh "kubectl apply -f deployment-service.yml"
+                    
                 }
             }
         }
-
-        stage('Build Docker Images') {
+        
+        stage('verify Deployment') {
             steps {
-                script {
-                    bat "docker build -t pathuni/icelove-frontend:%BUILD_NUMBER% icelove-client"
-                    bat "docker build -t pathuni/icelove-backend:%BUILD_NUMBER% icelove-server"
+                withKubeCredentials(kubectlCredentials: [[caCertificate: '', clusterName: 'EKS-1', contextName: '', credentialsId: 'k8-token', namespace: 'webapps', serverUrl: 'https://43D2789BD7D15D97865705BBC22AB1D2.gr7.ap-south-1.eks.amazonaws.com']]) {
+                    sh "kubectl get svc -n webapps"
                 }
             }
-        }
-
-       stage('Login to Docker Hub') {
-    steps {
-        withCredentials([string(credentialsId: 'test-dockerhubpassword', variable: 'DOCKERHUB_PASSWORD')]) {
-            bat """
-            echo %DOCKERHUB_PASSWORD% | docker login -u pathuni --password-stdin
-            """
-        }
-    }
-}
-
-
-       stage('Push Docker Images') {
-    steps {
-        script {
-            bat "docker push pathuni/icelove-frontend:%BUILD_NUMBER%"
-            bat "docker push pathuni/icelove-backend:%BUILD_NUMBER%"
-        }
-    }
-}
-
-    }
-
-    post {
-        always {
-            bat 'docker logout'
         }
     }
 }
